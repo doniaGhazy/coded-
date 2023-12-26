@@ -16,16 +16,16 @@
     - On your forked repository page, click the "Code" button. Copy the repository URL (something like `https://github.com/your-username/repository.git`).
     - Open a terminal of git bash on your local machine.
     - Navigate to the directory where you want to store the code.
-    - Run the following command to clone the repository to your local machine:
+    - Run the following command to clone the repository to your local machine: (you need to replace {yourUserName} with the user you have now after creating the account)
       ```bash
-      git clone https://github.com/your-username/repository.git
+      git clone https://github.com/{yourUserName}/coded-.git
       ```
 
 3. **Configure Upstream (Optional):**
     - If you want to keep your fork in sync with the original repository, you can set up an upstream remote.
       ```bash
       cd repository
-      git remote add upstream https://github.com/original-username/repository.git
+      git remote add upstream https://github.com/{yourUserName}/coded-.git
       ```
 
 4. **Pull Changes:**
